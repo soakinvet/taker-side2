@@ -1,0 +1,16 @@
+{
+  "package_id": "com.takerside.g2",
+  "edition": "202601",
+  "name": "Taker Side",
+  "version": "1.0.0",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Reads OKX public taker volume and mark price for BTC, ETH and SOL. The app never sends an order.",
+      "whitelist": ["https://www.okx.com"]
+    }
+  ],
+  "supported_languages": ["en"]
+}
